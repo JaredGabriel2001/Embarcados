@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Horario lab</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+  body, html {
+    margin: 0;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
+  .full-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  h1{
+      text-align: center;
+  }
+  .table-wrapper {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .styled-table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  .style-table th,
+  .style-table td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .style-table th {
+    background-color: #f2f2f2;
+  }
+
+  .style-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .style-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  .horario{
+    font-size: 11px;
+    width: 20%;
+    text-align: center;
+  }
+  #empty{
+      border: none;
+  }
+</style>
+<body>
+    <div class="full-screen">
+        <div class="table-wrapper">
+            <table class="style-table">
+                <h1>Laboratório 1</h1>
+                <tr>
+                    <th id="empty"></th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                </tr>
+                <tr>
+                    <td class="horario">8:00 até 9:40</td>
+                    <td>Linha 1, Coluna 2</td>
+                    <td>Linha 1, Coluna 3</td>
+                    <td>Linha 1, Coluna 4</td>
+                    <td>Linha 1, Coluna 5</td>
+                    <td>Linha 1, Coluna 6</td>
+                </tr>
+                <tr>
+                    <td class="horario">9:50 até 11:30</td>
+                    <td>Linha 2, Coluna 2</td>
+                    <td>Linha 2, Coluna 3</td>
+                    <td>Linha 2, Coluna 4</td>
+                    <td>Linha 2, Coluna 5</td>
+                    <td>Linha 2, Coluna 6</td>
+                </tr>
+                <tr>
+                    <td class="horario">13:30 até 15:10</td>
+                    <td>Linha 3, Coluna 2</td>
+                    <td>Linha 3, Coluna 3</td>
+                    <td>Linha 3, Coluna 4</td>
+                    <td>Linha 3, Coluna 5</td>
+                    <td>Linha 3, Coluna 6</td>
+                </tr>
+                <tr>
+                    <td class="horario">15:20 até 17:00</td>
+                    <td>Linha 4, Coluna 2</td>
+                    <td>Linha 4, Coluna 3</td>
+                    <td>Linha 4, Coluna 4</td>
+                    <td>Linha 4, Coluna 5</td>
+                    <td>Linha 4, Coluna 6</td>
+                </tr>
+                <tr>
+                    <td class="horario">17:00 até 18:40</td>
+                    <td>Linha 5, Coluna 2</td>
+                    <td>Linha 5, Coluna 3</td>
+                    <td>Linha 5, Coluna 4</td>
+                    <td>Linha 5, Coluna 5</td>
+                    <td>Linha 5, Coluna 6</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
